@@ -7,7 +7,7 @@ function getRepositories() {
 }
 
 function showRepositories(){
-  
+
 }
 
 def displaycommits() {
@@ -23,5 +23,5 @@ def displaycommits() {
     )
     .join('')}</ul>`;
   document.getElementById('commits').innerHTML = commitsList;
-  
+
 }
