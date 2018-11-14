@@ -1,5 +1,5 @@
 Skip to content
- 
+
 Search or jump to…
 
 Pull requests
@@ -13,7 +13,7 @@ Explore
 js-ajax-hitting-apis-lab-v-000/js/index.js
 ce4a926  on Sep 4
 @maxwellbenton maxwellbenton updated solution, rebase from master
-     
+
 73 lines (71 sloc)  2.25 KB
 const rootURL = 'https://api.github.com';
 
@@ -87,16 +87,4 @@ function displayBranches() {
     .join('')}</ul>`;
   document.getElementById('details').innerHTML = branchesList;
 }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
+
