@@ -2,10 +2,10 @@
 const rootURL = 'https://api.github.com';
 function getRepositories() {
   name = document.getElementById('username').value
-  uri = rootURL + '/users/' + name + '/respos'
+  const uri = rootURL + '/users/' + name + '/respos'
   const req = new XMLHttpRequest();
   req.addEventListener('load', displayRepositories)
-  req.open('GET', 'https://api.github.com/users/octocat/repos');
+  req.open('GET', uri);
   req.send();
 }
 
