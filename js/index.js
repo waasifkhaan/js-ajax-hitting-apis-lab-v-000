@@ -1,20 +1,4 @@
-Skip to content
 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @waasifkhaan Sign out
-19
-0 473 learn-co-students/js-ajax-hitting-apis-lab-v-000
- Code  Issues 0  Pull requests 457  Projects 0  Insights
-js-ajax-hitting-apis-lab-v-000/js/index.js
-ce4a926  on Sep 4
-@maxwellbenton maxwellbenton updated solution, rebase from master
-
-73 lines (71 sloc)  2.25 KB
 const rootURL = 'https://api.github.com';
 
 function getRepositories() {
