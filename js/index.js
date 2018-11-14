@@ -36,7 +36,10 @@ def displayCommits() {
     .map(
       commit =>
         '<li><strong>' +
-        commit.author.login +
+        commit.author.name +
+        '</strong> - ' +
+        '<li><strong>' +
+        commit.author.fullname +
         '</strong> - ' +
         commit.commit.message +
         '</li>'
